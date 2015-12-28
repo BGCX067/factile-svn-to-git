@@ -1,0 +1,6 @@
+﻿<h2>Fact Added</h2>
+
+$Fact.Title
+<p/>
+$Fact.Body
+

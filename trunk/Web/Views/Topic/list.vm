@@ -1,0 +1,8 @@
+﻿<div>
+  #foreach($fact in $facts)
+  <b>$fact.Body</b><br/>
+    #foreach($citation in $fact.Citations)
+         $citation.HtmlString()
+    #end 
+  #end
+</div>

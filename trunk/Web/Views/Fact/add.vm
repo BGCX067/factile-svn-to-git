@@ -1,0 +1,19 @@
+﻿$Form.UsefValidate()
+
+$Form.FormTag("%{action='Save', immediate='true', useLabels='true', querystring='Fact.ID=$id'}")
+<p/>
+
+$Form.LabelFor("Topic.Name","Topic:")<br/>
+$Form.TextField("Topic.Name","%{size='50'}")
+<p/>
+$Form.LabelFor("Fact.Title","Title:")<br/>
+$Form.TextField("Fact.Title","%{size='50'}")
+<p/>
+
+$Form.LabelFor("Fact.Body","Body:")<br/>
+$Form.TextField("Fact.Body","%{size='50'}")
+<p/>
+
+$Form.Submit("Save")
+
+$Form.EndFormTag()

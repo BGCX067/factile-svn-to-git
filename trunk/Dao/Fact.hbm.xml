@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="Factile.Core"
+                   namespace="Factile.Core"
+                   >
+  <class name="Fact" table="fact" lazy="false">
+    <id name="ID">
+      <generator class="native" />
+    </id>    
+    <property name="Title"/>
+    <property name="Body"/>
+  </class>
+</hibernate-mapping>
